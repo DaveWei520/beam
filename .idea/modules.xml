@@ -1,9 +1,0 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<project version="4">
-  <component name="ProjectModuleManager">
-    <modules>
-      <module fileurl="file://$PROJECT_DIR$/beam-core/beam-core.iml" filepath="$PROJECT_DIR$/beam-core/beam-core.iml" />
-      <module fileurl="file://$PROJECT_DIR$/.idea/beam-learning.iml" filepath="$PROJECT_DIR$/.idea/beam-learning.iml" />
-    </modules>
-  </component>
-</project>
