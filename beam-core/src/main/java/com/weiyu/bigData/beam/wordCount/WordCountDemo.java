@@ -1,4 +1,4 @@
-package com.weiyu.beam.demo;
+package com.weiyu.bigData.beam.wordCount;
 
 import org.apache.beam.sdk.Pipeline;
 import org.apache.beam.sdk.io.TextIO;

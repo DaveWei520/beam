@@ -6,11 +6,14 @@
         <sourceOutputDir name="target/generated-sources/annotations" />
         <sourceTestOutputDir name="target/generated-test-sources/test-annotations" />
         <outputRelativeToContentRoot value="true" />
+        <module name="beam-core" />
         <module name="core" />
       </profile>
     </annotationProcessing>
     <bytecodeTargetLevel target="1.8">
       <module name="beam" target="1.5" />
+      <module name="beam-core" target="1.8" />
+      <module name="beam-learning" target="1.5" />
       <module name="core" target="1.8" />
     </bytecodeTargetLevel>
   </component>

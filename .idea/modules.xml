@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ProjectModuleManager">
     <modules>
-      <module fileurl="file://$PROJECT_DIR$/.idea/beam.iml" filepath="$PROJECT_DIR$/.idea/beam.iml" />
-      <module fileurl="file://$PROJECT_DIR$/core/core.iml" filepath="$PROJECT_DIR$/core/core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/beam-core/beam-core.iml" filepath="$PROJECT_DIR$/beam-core/beam-core.iml" />
+      <module fileurl="file://$PROJECT_DIR$/.idea/beam-learning.iml" filepath="$PROJECT_DIR$/.idea/beam-learning.iml" />
     </modules>
   </component>
 </project>

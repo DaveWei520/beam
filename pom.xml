@@ -4,12 +4,27 @@
          xsi:schemaLocation="http://maven.apache.org/POM/4.0.0 http://maven.apache.org/xsd/maven-4.0.0.xsd">
     <modelVersion>4.0.0</modelVersion>
 
-    <groupId>com.weiyu</groupId>
-    <artifactId>beam</artifactId>
+    <groupId>com.weiyu.bigData</groupId>
+    <artifactId>beam-learning</artifactId>
     <packaging>pom</packaging>
     <version>1.0.0</version>
 
     <modules>
-        <module>core</module>
+        <module>beam-core</module>
     </modules>
+
+    <dependencies>
+        <dependency>
+            <groupId>org.apache.beam</groupId>
+            <artifactId>beam-sdks-java-core</artifactId>
+            <version>2.2.0</version>
+        </dependency>
+
+        <dependency>
+            <groupId>org.apache.beam</groupId>
+            <artifactId>beam-runners-direct-java</artifactId>
+            <version>2.2.0</version>
+            <!--<scope>test</scope>-->
+        </dependency>
+    </dependencies>
 </project>
