@@ -1,2 +1,2 @@
-# beam
-beam简单操作示例
+# beam-learning
+beam learning demo
